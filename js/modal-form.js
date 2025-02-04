@@ -3,6 +3,7 @@ const closeBtn = document.querySelector('.modal-close-button');
 const modalBg = document.querySelector('.modal-bg');
 const modal = document.querySelector('.modal-form');
 
+// Открытие модального окна
 openBtn.addEventListener('click', () => {
 	modalBg.style.visibility = 'visible';
 	modal.style.transform = ' translateY(0%)';
@@ -10,9 +11,11 @@ openBtn.addEventListener('click', () => {
 	document.body.style.overflow = 'hidden';
 });
 
+// Закрытие модального окна
 closeBtn.addEventListener('click', closeModal);
 modalBg.addEventListener('click', closeModal);
 
+// Функция закрытия модального окна
 function closeModal() {
 	modal.style.transform = 'translateY(-120%)';
 	document.body.style.overflow = 'auto';

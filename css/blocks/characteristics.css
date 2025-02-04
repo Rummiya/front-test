@@ -15,6 +15,13 @@
 	font-weight: 400;
 }
 
+@media screen and (max-width: 1190px) {
+	.characteristics-list {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 30px;
+	}
+}
+
 .characteristics-item {
 	display: flex;
 	align-items: start;

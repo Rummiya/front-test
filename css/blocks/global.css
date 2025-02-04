@@ -16,6 +16,10 @@ body {
 	text-transform: uppercase;
 }
 
+.def-desc {
+	font-size: 16px;
+}
+
 button,
 a,
 img {
@@ -28,4 +32,18 @@ button:active {
 
 a:hover {
 	color: var(--teal-green);
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		padding: 0 10px;
+	}
+
+	.def-title {
+		font-size: 32px;
+	}
+
+	.def-desc {
+		font-size: 14px;
+	}
 }

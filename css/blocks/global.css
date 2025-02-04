@@ -1,0 +1,31 @@
+body {
+	font-family: 'Montserrat', serif;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.def-title {
+	font-size: 40px;
+	font-weight: 400;
+	font-family: 'Times New Roman', sans-serif;
+	text-transform: uppercase;
+}
+
+button,
+a,
+img {
+	transition: all 0.3s ease;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+a:hover {
+	color: var(--teal-green);
+}

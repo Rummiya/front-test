@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/* overflow-x: hidden; */
+}
+
+/* Убираем стандартные стили списков */
+ul,
+ol {
+	list-style: none;
+}
+
+/* Обнуляем стили ссылок */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Убираем рамку у кнопок и инпутов в фокусе */
+button,
+input,
+textarea {
+	border: none;
+	outline: none;
+	background: none;
+	font: inherit;
+}
+
+/* Задаем единый стиль курсора для кнопок */
+button {
+	cursor: pointer;
+}
+
+/* Убираем стили у картинок */
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Минимальный height на 100% */
+html,
+body {
+	height: 100%;
+}

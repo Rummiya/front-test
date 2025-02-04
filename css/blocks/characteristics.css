@@ -1,0 +1,36 @@
+.characteristics {
+	background-color: #231f21;
+	color: #fff;
+	padding: 60px 0;
+}
+
+.characteristics-list {
+	display: grid;
+	gap: 60px;
+	grid-template-columns: repeat(4, 1fr);
+	margin-top: 70px;
+
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.characteristics-item {
+	display: flex;
+	align-items: start;
+	gap: 20px;
+}
+
+.characteristics-item h4 {
+	margin-bottom: 14px;
+}
+
+.characteristics-item p {
+	line-height: 24px;
+	font-family: 'Montserrat', serif;
+	font-weight: 300;
+}
+
+.characteristics-item img {
+	margin-top: 10px;
+}

@@ -1,0 +1,14 @@
+@import url('/fonts/stylesheet.css');
+
+@import url('./reset.css');
+@import url('./vars.css');
+
+@import url('./blocks/global.css');
+@import url('./blocks/header.css');
+@import url('./blocks/characteristics.css');
+@import url('./blocks/business.css');
+@import url('./blocks/location.css');
+@import url('./blocks/gallery.css');
+@import url('./blocks/layout.css');
+@import url('./blocks/contact.css');
+@import url('./blocks/footer.css');

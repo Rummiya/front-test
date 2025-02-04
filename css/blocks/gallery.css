@@ -1,0 +1,57 @@
+.gallery {
+	text-align: center;
+	height: 530px;
+	margin-bottom: 120px;
+}
+
+.carousel {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.carousel-controls {
+	display: flex;
+	align-items: center;
+	gap: 45px;
+	margin-top: 30px;
+}
+
+.carousel-track {
+	max-width: 800px;
+	width: 100%;
+	height: 400px;
+
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 30px;
+	z-index: auto;
+}
+
+.carousel-item {
+	position: absolute;
+	transition: transform 0.5s ease, opacity 0.5s ease;
+	width: 100%;
+	height: 400px;
+	opacity: 0.5;
+	transform: scale(0.8);
+	will-change: transform, opacity, z-index;
+}
+
+.carousel-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.carousel-item.active {
+	transform: scale(1);
+	opacity: 1;
+}

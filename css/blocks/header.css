@@ -1,0 +1,144 @@
+.header {
+	background-image: url('./../../assets/images/face-banner-bg.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	padding-bottom: 163px;
+	padding-top: 50px;
+
+	color: #fff;
+}
+
+.nav {
+	max-width: 1150px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin: 0 auto;
+	padding: 1rem;
+
+	font-family: 'Inter', sans-serif;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.nav-contacts {
+	position: relative;
+	right: 0px;
+	z-index: 10;
+	max-width: 351px;
+
+	display: flex;
+	align-items: center;
+
+	font-size: 14px;
+}
+
+.overlay {
+	position: absolute;
+	right: 0px;
+	z-index: -1;
+	display: block;
+
+	height: 54px;
+	width: 361px;
+
+	border-radius: 8px;
+	background: #231f2140;
+	backdrop-filter: blur(10px);
+
+	padding: 8px;
+}
+
+.nav-contacts__item {
+	display: flex;
+	align-items: start;
+	gap: 8px;
+
+	cursor: pointer;
+}
+
+.nav-contacts__item svg,
+.nav-contacts__item span {
+	transition: all 0.3s ease;
+}
+
+.nav-contacts__item:hover svg path,
+.nav-contacts__item:hover span {
+	color: var(--teal-green);
+	fill: var(--teal-green);
+}
+
+.nav-contacts__item--location {
+	padding-right: 12px;
+	border-right: 1px solid #fff;
+}
+
+.nav-contacts__item--phone {
+	padding-left: 12px;
+}
+
+.face {
+	margin-top: 147px;
+}
+
+.face-content {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.face-content__article {
+	position: relative;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.face-content__article::before {
+	content: '';
+	display: block;
+	width: 97px;
+	height: 1px;
+	background-color: #fff;
+	position: absolute;
+	top: 8px;
+	left: -135px;
+}
+
+.face-content__title {
+	position: relative;
+
+	text-transform: uppercase;
+	font-size: 60px;
+	font-family: 'Times New Roman', sans-serif;
+	font-weight: 400;
+
+	max-width: 460px;
+}
+
+.face-content__date {
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+
+	max-width: 120px;
+}
+
+.face-content__desc {
+	max-width: 543px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 20px;
+}

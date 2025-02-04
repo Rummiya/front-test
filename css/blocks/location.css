@@ -1,0 +1,27 @@
+.location {
+	padding-top: 120px;
+	padding-bottom: 110px;
+}
+
+.location__content {
+	text-align: center;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.location__subtitle {
+	font-size: 22px;
+	display: block;
+	border-bottom: 2px solid var(--dark-gray);
+
+	padding-bottom: 30px;
+	margin-top: 20px;
+}
+
+.location__desc {
+	line-height: 20px;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
